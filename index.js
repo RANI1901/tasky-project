@@ -100,8 +100,7 @@ const deleteCard = (event) => {
 
   // task__container
  return taskContainer.removeChild(
-   event.target.parentNode.parentNode.parentNode.parentNode
-   );
+   event.target.parentNode.parentNode.parentNode.parentNode);
 };
 
 const editCard = (event) => {
